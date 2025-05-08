@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')git config --global user.name "Fern922"
+@app.route('/')
 def home():
     return ("<p>Jabez Cyrus Baliling</p>"
             "<p>BSIT - 3</p>"
